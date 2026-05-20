@@ -13,7 +13,7 @@ a{text-decoration: none;color: inherit;}
 html{background-color: red;}
 body {
     max-width: 100%;
-    height: 100dvh;
+    height: 100%;
     /* font-family: '', ; */
 
     display: grid;
@@ -196,7 +196,7 @@ button:hover{
         height: 15em;
         position: sticky;
         left: 4px;
-        top: 5px;
+        top: 0px;
     }
     .aside a {
         font-size: 4vmin;
@@ -221,6 +221,8 @@ button:hover{
         font-weight: 200;
     }
     .aside {
+        /* position: static; */
+        background-color: #eff8f7;
         height: 6em;
         width: 100%;
         align-items: center;
